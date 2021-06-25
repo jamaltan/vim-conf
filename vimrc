@@ -19,5 +19,7 @@ syntax on
 
 set number
 let g:ctrlp_custom_ignore = {
-    \ 'dir': '\.git\|vendor$'
-\ }
+  \ 'dir':  '\.git$\|\.yardoc\|\.svn\|node_modules\|log\|tmp\|vendor$',
+  \ 'file': '\.so$\|\.dat$|\.DS_Store|ctags$'
+  \ }
+
